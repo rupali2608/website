@@ -1,0 +1,204 @@
+.container-fluid {
+  height: 100px;
+  margin: 0% 8% 0% 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.navbar.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header {
+  background-color: transparent;
+}
+/* header.header-fix {
+  background-color: white;
+} */
+
+#navbarNavDropdown {
+  margin-left: auto;
+}
+
+#hr {
+  color: rgb(239, 235, 248);
+  /* width: 900px; */
+  font-weight: 5px;
+  margin: 0% 8% 0% 8%;
+}
+
+.container1 {
+  background-image: url("bg-home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  opacity: 0.99;
+  height: 600px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  align-self: center;
+  color: white;
+}
+
+.row {
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+.digitalmain {
+  margin-top: 5%;
+  background-color: gray;
+}
+
+.digital {
+  /* border: 2px solid rgb(22, 13, 13); */
+  margin-left: 10%;
+  margin-top: 3%;
+  padding-top: 8%;
+}
+
+.card {
+  border: 2px solid gray;
+  display: inline-block;
+  margin-left: 10px;
+  width: 50%;
+  background-color: gray;
+  padding: 10px;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  overflow-x: auto;
+
+  /* white-space: nowrap; */
+}
+
+.cardContainer {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  display: flex;
+}
+
+.card {
+  flex: 0 0 auto;
+  margin-right: 15px;
+}
+
+.scroll-button {
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+  background-color: gray;
+}
+
+.textCard {
+  height: 350px;
+  padding: 25px;
+  display: inline-block;
+  width: 50%;
+  flex-shrink: 0;
+  border: 0.5px solid white;
+  background-color: rgb(10, 10, 78);
+  color: wheat;
+  /* margin-right: 0px; */
+}
+
+.textCardStyle {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  /* border: 2px solid black; */
+  margin: 3% 9% 0% 8%;
+  /* margin-right: 12%;
+    margin-top: 1%; */
+  /* scroll-behavior: smooth; */
+}
+
+.scrollContainer {
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: flex-start;
+}
+.cardBody {
+  /* border: 1px solid red; */
+  width: 220px;
+  height: 400px;
+  margin-left: 1%;
+  padding: 20px 10px 20px 10px;
+}
+.cardBody1 {
+  /* border: 1px solid red; */
+  width: 220px;
+  height: 400px;
+  margin-left: 1%;
+  padding: 40px 25px 45px 25px;
+}
+.container5 {
+  margin: 8% 12% 0% 12%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.cardBody:hover {
+  height: 350px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid gray; */
+}
+.style-form {
+  width: 75%;
+  margin: 3%;
+  border-radius: 0px;
+  background-color: rgba(79, 79, 79, 0.55);
+  background: rgba(79, 79, 79, 0.55);
+  color: #1a0f0f !important;
+}
+.flag-dropdown {
+  background-color: #f5f5f5;
+}
+.form {
+  background-image: url("form-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border: 1px solid black;
+  height: 400px;
+}
+.form-container {
+  /* width: 100%; */
+  display: grid;
+  grid-template-rows: auto auto;
+  padding-left: 10%;
+
+  /* border: 1px solid black; */
+  /* margin: 5%; */
+  /* padding: 3%; */
+}
+.footer {
+  background-color: darkblue;
+  color: #f5f5f5;
+}
+.submit {
+  background: none;
+  border: none;
+  outline: none;
+  color: wheat;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
+}
+body {
+  flex-wrap: wrap;
+}
